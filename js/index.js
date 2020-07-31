@@ -24,8 +24,9 @@ function eqPressed() {
   display.value = eval(display.value);
 }
 
-document.querySelector('#clearAll').addEventListener('click', clearAllPressed);
+document.querySelector('#clearIt').addEventListener('click', clearAllPressed);
 
 function clearAllPressed() {
-  display.value = eval(display.value);
+  display.value = 0;
+  ;
 }
