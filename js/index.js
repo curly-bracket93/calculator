@@ -27,6 +27,6 @@ function eqPressed() {
 document.querySelector('#clearIt').addEventListener('click', clearAllPressed);
 
 function clearAllPressed() {
-  display.value = 0;
+  display.value = "";
   ;
 }
